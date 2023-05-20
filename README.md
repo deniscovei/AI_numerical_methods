@@ -3,9 +3,6 @@
 Name: `Covei Denis` \
 Group: `312CA`
 
-Doresc corectarea manuala a testelor pentru tema 1.
-Mentionez ca obtin 120 de puncte pe checkerul local.
-
 ## Markov is coming
 Codificarea starilor si pozitia lor in matrice s-a realizat prin gasirea unei relatii de bijectie:
 
