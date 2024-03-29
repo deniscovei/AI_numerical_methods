@@ -31,7 +31,7 @@ Functia rand intoarce un numar real in intervalul `[0, 1]`. Pentru a aduce acest
 
 Pentru a amesteca randurile matricei `weights` si vectorului de predictii am realizat o permutare pe indicii liniilor.
 
-Redactarea functiei de cost mi-a demonstrat importanta utilizarii operatiilor vectorizate in `Octave`. Un prim algoritmdeloc optimizat conducea la un timp de rulare enorm. Prin implementarea vectorizata a operatiilor, functia de cost rula aproape instant si cu precizie mai buna. Am incercat sa optimizez si mai mult prin utilizarea metodei gradientului descent, insa implementarea initiala a fost suficienta pentru obtinerea preciziei dorite.
+Redactarea functiei de cost a demonstrat importanta utilizarii operatiilor vectorizate in `Octave`. Un prim algoritm, deloc optimizat conducea la un timp de rulare enorm. Prin implementarea vectorizata a operatiilor, functia de cost rula aproape instant si cu precizie mai buna. Am incercat sa optimizez si mai mult prin utilizarea metodei gradientului descent, insa implementarea initiala a fost suficienta pentru obtinerea preciziei dorite.
 
 Functia de predictie obtinea o rata de succes de `23%` pe antrenarea pe date neamestecate. Amestecarea inputului pentru antrenare a crescut rata de succes a predictiei la `83%`. 
 
